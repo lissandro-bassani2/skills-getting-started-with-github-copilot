@@ -74,6 +74,38 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #e1e5eb;
+}
+
+.participants-section h5 {
+  margin-bottom: 7px;
+  color: #46536a;
+  font-size: 0.9rem;
+}
+
+.participant-list {
+  padding-left: 20px;
+  color: #46536a;
+}
+
+.participant-list li {
+  padding: 2px 0 2px 3px;
+  overflow-wrap: anywhere;
+}
+
+.participant-list li::marker {
+  color: #168477;
+}
+
+.no-participants {
+  color: #7b8492;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
